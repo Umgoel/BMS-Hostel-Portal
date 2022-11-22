@@ -1,0 +1,127 @@
+*{
+    margin: 0px 0px;
+    padding : 0px 0px;
+}
+
+.sp_nav{
+    border: 2px solid black;
+    height: 50px;
+    display: flex;
+    background: #fffff1;
+    color: #0088CC;
+}
+
+.sp_nav h3{
+    font-size: 20px;
+    margin-left: 40px;
+    padding: 10px 10px;
+}
+.sp_nav button{
+    height: 30px;
+    margin-top: 10px;
+    position: absolute;
+    right: 1vw;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #fffff1;
+    border: 1px solid red;
+    box-shadow: 0 0.5rem 1rem rgba(240, 39, 39, 0.15) !important;
+    color: red;
+}
+
+.sp_left{
+    border-right: 2px solid black;
+    display: inline-block;
+    height:100vh;
+    background-color: #DCDCDD;
+}
+
+.sp_ul{
+    margin: 15px 15px;
+    padding: 10px 10px;
+}
+
+.sp_ul li{
+    padding: 10px 10px;
+    list-style: none; 
+    border-bottom: 1px solid grey; 
+    /* border-radius: 10px; */
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.sp_ul li:hover{
+    background-color: rgba(0, 0, 255, 0.144);
+}
+
+.mainbox{
+    display: flex;
+}
+.sp_right{
+    display: flex;
+}
+
+.pdetail{
+    position: relative;
+    top: -60px;
+    margin: auto 10px;
+    display: flex;
+    width: 850px;
+    overflow: auto ;
+    word-wrap: break-word;
+    height: 550px;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.eachbox{
+    display: inline-block;
+    height: fit-content;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.eachbox h3{
+    margin-bottom: 10px;
+}
+
+.headingpdeatil{
+    background-color: aquamarine;
+}
+.headingpdeatil h3{
+    padding: 10px 10px;
+}
+
+
+
+.pimage{
+    /* border: 2px solid green; */
+    display: inline-block ;
+    /* flex-direction: column; */
+    height: 300px;
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.pimage img{
+    width:100px;
+    height: 100px;
+    border-radius: 100px;
+    padding: 12px 10px;
+}
+.pimage h3{
+    padding: 10px 10px;
+}
+
+.pimage p{
+    padding: 5px 10px;
+}
+
+
