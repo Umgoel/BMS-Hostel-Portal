@@ -1,0 +1,78 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.logo{
+    position: relative;
+    z-index: 1;
+    width: 120px;
+    left: 50px;
+}
+.heading{
+    position: relative;
+    top: -130px;
+    text-align: center;
+}
+.ULNavBar{
+    display: inline;
+    float: left;
+    overflow: auto;
+    width:19%;
+    /* height: 50px; */
+}
+.navbar{
+    overflow: auto;
+    /* width: max-content; */
+}
+.navbar a{
+    display: block;
+    /* background-color: #0088CC; */
+    background-color: rgb(44,52,57);
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover{
+    background-color: rgb(0,133,207) ;
+}
+form{
+    line-height: 32px;
+    width: 96%;
+    display : block;
+    position: relative;
+    left: 550px;
+}
+
+.textbox{
+    border: .5px grey solid;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.footer{
+    /* position: absolute;
+    bottom: 0px; */
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(44,52,57);    
+    color: white;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.btn22{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(0,133,207);
+    position: relative;
+    left: 150px;
+    margin-top: 10px;
+    background-color: white;
+    color : black; 
+}
+.btn22:hover{
+    background-color: rgb(0,133,207);
+    color : white; 
+}
