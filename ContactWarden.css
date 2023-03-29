@@ -1,0 +1,135 @@
+*{
+    margin: 0px 0px;
+    padding : 0px 0px;
+}
+.mainbox{
+    display: flex;
+}
+.sp_nav{
+    border: 2px solid black;
+    height: 50px;
+    display: flex;
+    background: #fffff1;
+    color: #0088CC;
+}
+
+.sp_nav h3{
+    font-size: 20px;
+    margin-left: 40px;
+    padding: 10px 10px;
+}
+.sp_nav button{
+    height: 30px;
+    margin-top: 10px;
+    position: absolute;
+    right: 1vw;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #fffff1;
+    border: 1px solid red;
+    box-shadow: 0 0.5rem 1rem rgba(240, 39, 39, 0.15) !important;
+    color: red;
+}
+
+.sp_left{
+    border-right: 2px solid black;
+    display: inline-block;
+    height:100vh;
+    background-color: #DCDCDD;
+}
+
+.sp_ul{
+    margin: 15px 15px;
+    padding: 10px 10px;
+}
+.heading{
+    background-color: aquamarine;
+}
+.sp_ul li{
+    padding: 10px 10px;
+    list-style: none; 
+    border-bottom: 1px solid grey; 
+    /* border-radius: 10px; */
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.sp_ul li:hover{
+    background-color: rgba(0, 0, 255, 0.144);
+}
+
+.CWrightwhole{
+    display: flex;
+}
+.CW_right{
+    margin : auto 10px;
+    padding : auto 10px;
+    position: relative;
+    top: -100px;
+    display: flex;
+    width: 850px;
+    height: fit-content;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.heading h3{
+    padding: 10px 10px;
+}
+.data{
+    margin: 10px 15px;
+}
+.textbox{
+    font-size: 17px;
+}
+
+.submitbtn{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid aquamarine;
+    position: relative;
+    margin-top: 10px;
+    background-color: white;
+    color : black; 
+}
+.submitbtn:hover{
+    background-color: aquamarine;
+    color : white; 
+}
+
+
+.Rdetails{
+    text-align: justify;
+}
+.rag_right{
+    margin : auto 10px;
+    padding : auto 10px;
+    position: relative;
+    top: -10px;
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    height: fit-content;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.Rrightwhole{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.Rrightwhole img{
+    margin: auto auto;
+    opacity: .3;
+    position: absolute;
+    height: auto;
+    width: 950px;
+}
+/* body {
+    background-image: url("images/ragging.png");
+    background-color: #cccccc;
+   } */
